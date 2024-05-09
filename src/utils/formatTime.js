@@ -1,5 +1,5 @@
-const formatTimeUnit = (unit) => {
-    return unit < 10 ? '0' + unit : unit;
+const formatTimeUnit = (digit) => {
+    return digit < 10 ? '0' + digit : digit;
 };
 
 export default formatTimeUnit;
