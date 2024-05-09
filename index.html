@@ -1,12 +1,30 @@
 <!DOCTYPE html>
 <html lang="en">
-    <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="./styles/style.css" />
-        <title>Stop watch</title>
-    </head>
-    <body>
-        <script type="module" src="./src/init.js"></script>
-    </body>
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <title>Stop watch</title>
+</head>
+
+<body>
+    <main class="container">
+        <h1>STOPWATCH</h1>
+        <div class="time-container">
+            <div id="time">
+                <span class="minutes">00</span>
+                <span class="seconds">00</span>
+                <span class="milliseconds">000</span>
+            </div>
+            <div class="btn">
+                <button id="start">Start</button>
+                <button id="stop">Stop</button>
+                <button id="reset">Reset</button>
+            </div>
+        </div>
+    </main>
+    <script type="module" src="./src/init.js"></script>
+</body>
+
 </html>
