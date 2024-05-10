@@ -5,7 +5,6 @@ import updateTime from "../utils/updateTime.js";
 
 const startHandler = () => {
     data.intervalId && clearInterval(data.intervalId);
-    data.intervalId = null;
 
     data.intervalId = setInterval(() => {
         const time = updateTime(data);
